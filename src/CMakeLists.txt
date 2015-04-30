@@ -6,6 +6,8 @@ endif()
 
 
 # This project is designed to be built outside the Insight source tree.
+project(CutDicomImageWithMask)
+
 
 # Find ITK.
 find_package(ITK REQUIRED)
